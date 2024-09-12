@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Michelle's Web</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <style>
+        body {
+            background-image: url(back.jpg);
+            background-size: cover;
+        }
+        .gallery img {
+            width: 100%;
+            max-width: 300px;
+            height: auto;
+            cursor: pointer;
+            border: 5px solid lightblue;
+            padding: 1em;
+            border-radius: 10px;
+        }
+        .gallery img:hover { 
+            transform: scale(1.1); 
+            transition: opacity 0.3s ease-in-out, transform 0.3s ease-in-out;
+        }
+    </style>
+    <section id="gallery">
+        <h2>MY PHOTO</h2>
+        <div class="gallery">
+        <center>
+            <img src="1.jpg" alt="Image 1">
+            <img src="2.jpg" alt="Image 2">
+            <img src="3.jpg" alt="Image 3">
+        </center>
+        </div>
+    </section>
+</body>
+</html>
